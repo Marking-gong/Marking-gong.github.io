@@ -20,17 +20,22 @@
     var CONFIG = {"hostname":"marking-gong.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="home">
-<meta property="og:url" content="https://marking-gong.github.io/home/index.html">
+  <meta name="description" content="1. 导数入门例题 足球比赛的最后几分钟，比分拉平，压力山大。你从边线突破，射门路径清空 - 目标就在眼前！">
+<meta property="og:type" content="article">
+<meta property="og:title" content="微积分入门-导数入门">
+<meta property="og:url" content="https://marking-gong.github.io/2025/03/16/%E5%AF%BC%E6%95%B0%E5%85%A5%E9%97%A8/index.html">
 <meta property="og:site_name" content="BlogV">
+<meta property="og:description" content="1. 导数入门例题 足球比赛的最后几分钟，比分拉平，压力山大。你从边线突破，射门路径清空 - 目标就在眼前！">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2025-03-08T15:42:34.000Z">
-<meta property="article:modified_time" content="2025-03-08T15:42:34.271Z">
+<meta property="og:image" content="https://picx.zhimg.com/v2-b262ced344a4e7d750435debe4770895_b.webp">
+<meta property="article:published_time" content="2025-03-15T16:22:51.000Z">
+<meta property="article:modified_time" content="2025-03-16T02:40:22.991Z">
 <meta property="article:author" content="John Doe">
+<meta property="article:tag" content="algebra;">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://picx.zhimg.com/v2-b262ced344a4e7d750435debe4770895_b.webp">
 
-<link rel="canonical" href="https://marking-gong.github.io/home/">
+<link rel="canonical" href="https://marking-gong.github.io/2025/03/16/%E5%AF%BC%E6%95%B0%E5%85%A5%E9%97%A8/">
 
 
 <script id="page-configurations">
@@ -38,13 +43,12 @@
   CONFIG.page = {
     sidebar: "",
     isHome : false,
-    isPost : false,
+    isPost : true,
     lang   : 'zh-CN'
   };
 </script>
 
-  <title>home | BlogV
-</title>
+  <title>微积分入门-导数入门 | BlogV</title>
   
 
 
@@ -170,43 +174,131 @@
       <div class="main-inner">
         <div class="content-wrap">
           
-  
-  
 
-          <div class="content page posts-expand">
+          <div class="content post posts-expand">
             
 
     
-    
-    
-    <div class="post-block" lang="zh-CN">
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://marking-gong.github.io/2025/03/16/%E5%AF%BC%E6%95%B0%E5%85%A5%E9%97%A8/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Author">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="BlogV">
+    </span>
       <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          微积分入门-导数入门
+        </h1>
 
-<h1 class="post-title" itemprop="name headline">home
-</h1>
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
 
-<div class="post-meta">
+              <time title="创建时间：2025-03-16 00:22:51 / 修改时间：10:40:22" itemprop="dateCreated datePublished" datetime="2025-03-16T00:22:51+08:00">2025-03-16</time>
+            </span>
+
+          <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>612</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>1 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <h1 id="1-导数入门"><a href="#1-导数入门" class="headerlink" title="1. 导数入门"></a>1. 导数入门</h1><h3 id="例题"><a href="#例题" class="headerlink" title="例题"></a>例题</h3><blockquote>
+<p>足球比赛的最后几分钟，比分拉平，压力山大。你从边线突破，射门路径清空 - 目标就在眼前！</p>
+</blockquote>
+<span id="more"></span>
+
+<p><img src="https://picx.zhimg.com/v2-b262ced344a4e7d750435debe4770895_b.webp" alt="例子1"></p>
+<p>从足球场的鸟瞰图，我们看到你的视线与两个球门柱形成一个角度，称为$\theta$。</p>
+<p><strong>试问：当$\theta$ 最大&#x2F;最小时，射门机会最好？</strong> </p>
+<p>显然，$\theta$最大。</p>
+<p>又问：那$\theta$存不存在<strong>最大值</strong>？</p>
+<p>显然<strong>存在</strong>。并注意到关于$\theta$的$f(\theta)$图像是<strong>平滑的</strong>，且在$\theta$达到最大值前，成<strong>单调递增</strong>。得出结论：</p>
+<blockquote>
+<p><strong>当函数达到最大值时，它停止增加并开始减少。</strong></p>
+</blockquote>
+<p>推出$\Rightarrow$：</p>
+<blockquote>
+<p><strong>当函数达到最小值时，它停止减少并开始增加。</strong> </p>
+</blockquote>
+<hr>
+<h3 id="运动和切线"><a href="#运动和切线" class="headerlink" title="运动和切线"></a>运动和切线</h3><p>设想有一个球做<strong>竖直上抛运动</strong>，达到最高点后做<strong>自由落体运动</strong>。对于其高度$h$的函数$h(t)$，在最高点前的斜率$k&gt;0$。不难得出：</p>
+<blockquote>
+<p><strong>当$h(t)_{max}$时，$h(t)$的斜率$k&#x3D;0$。</strong></p>
+</blockquote>
+<p>再在最高点处，作过最高点的<strong>水平切线</strong>，得斜率$k&#x3D;0$。推广，令在过该函数$h(t)$上任意一点的切线，其斜率叫做<strong>局部斜率</strong>，可得结论：</p>
+<blockquote>
+<p><strong>当它为正时函数增加，为负时减少。</strong></p>
+</blockquote>
+<p>我们把这个<strong>局部斜率</strong>叫做<strong>导数</strong>。</p>
+<hr>
+<h3 id="导数"><a href="#导数" class="headerlink" title="导数"></a>导数</h3><p>我们令函数$h(t)$的斜率函数叫做$k(t)$。因为它是由原始的函数$h(t)$ <strong>导致的</strong>, 我们称这个新函数$k(t)$为$h(t)$ 的导数。于是：</p>
+<blockquote>
+<p><strong>缩写$f’(x)$就表示$f(x)$的导数</strong></p>
+</blockquote>
+<p>即$k(t)$也可以叫做$h’(t)$。</p>
+<hr>
+<h3 id="The-End"><a href="#The-End" class="headerlink" title="The End."></a>The End.</h3>
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/algebra/" rel="tag"># algebra;</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2025/03/08/Hello-World-0/" rel="prev" title="Hello World">
+      <i class="fa fa-chevron-left"></i> Hello World
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
   
 
-</div>
-
-</header>
-
-      
-      
-      
-      <div class="post-body">
-          
-      </div>
-      
-      
-      
-    </div>
-    
-
-    
-    
-    
 
 
           </div>
@@ -257,6 +349,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#1-%E5%AF%BC%E6%95%B0%E5%85%A5%E9%97%A8"><span class="nav-number">1.</span> <span class="nav-text">1. 导数入门</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BE%8B%E9%A2%98"><span class="nav-number">1.0.1.</span> <span class="nav-text">例题</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%BF%90%E5%8A%A8%E5%92%8C%E5%88%87%E7%BA%BF"><span class="nav-number">1.0.2.</span> <span class="nav-text">运动和切线</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AF%BC%E6%95%B0"><span class="nav-number">1.0.3.</span> <span class="nav-text">导数</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#The-End"><span class="nav-number">1.0.4.</span> <span class="nav-text">The End.</span></a></li></ol></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
